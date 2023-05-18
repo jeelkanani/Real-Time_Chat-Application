@@ -57,12 +57,14 @@ textarea {
 }
 .incoming {
     background: #8F8BE8;
+    overflow-wrap: break-word;
     color: #fff;  
 }
 .outgoing {
     background: #e9eafd;
     color: #787986;
-    margin-left: auto;
+    overflow-wrap:break-word;
+        margin-left: auto;
 }
 .message h4 {
     position: absolute;
@@ -71,3 +73,19 @@ textarea {
     color: #333;
     font-size: 14px;
 }
+
+.send{
+    display: flex;
+    background-color: #FBFBFB;
+}
+
+#msgsend {
+    margin:20px
+    /* background-color= red; */
+}
+
+#textarea::-webkit-scrollbar 
+ {
+    display: none;
+    resize: none;
+  }
